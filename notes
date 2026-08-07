@@ -5,3 +5,4 @@ create a folder locally and open it in VS code
 open terminal in VS code and run $ npm init -y, it will create package.json file (-y: select yes on all the upcoming questions)
 
 step 2: install Playwright test
+$ npm init playwright@latest
