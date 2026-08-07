@@ -1,1 +1,4 @@
 https://www.youtube.com/watch?v=5wSztvWhx14
+
+create a folder locally and open it in VS code
+open terminal in VS code and run $ npm init -y, it will create package.json file
