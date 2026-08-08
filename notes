@@ -66,3 +66,5 @@ launchOptions: {
 note: running tests in playwright ui mode is useful for debugging, say, $ npx playwright test --ui
 
 
+section 4: take screenshot on failure
+
