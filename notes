@@ -14,8 +14,8 @@ create a file under 'tests' folder and name it in this format 'blabla.spec.js' (
 
 section 2: create tests
 run in VS code $ npx playwright codegen <url that you are testing>
-it would pop up a playwright inspector window, as you click on the webpage, it would record all your behaviours and generate test scripts in it;
-it would pop up a browser window as well which is the application page you are testing, click 'assert visibility' or 'assert texts' or 'assert values' icons 
+it would pop up a playwright inspector window, as we click on the webpage, it would record all our behaviours and generate test scripts in it;
+it would pop up a browser window as well which is the application page we are testing, click 'assert visibility' or 'assert texts' or 'assert values' icons 
 to add assertions into the scripts, click stop recording icon once finish;
 copy the scripts from playwright inspector into the test file 'blabla.spec.js', save it, then ctrl+C in terminal.
 
@@ -29,7 +29,7 @@ await expect(items).toHaveCount(3);
 
 //mark second item complete
 await items.nth(1).locator('toggle').check();
-await expect(page.locator('blabla')).toHaveCount(1);
+await expect(page.locator('walawala')).toHaveCount(1);
 
 //delete third item (hover + click destroy)
 await.items.nth(2).hover();
