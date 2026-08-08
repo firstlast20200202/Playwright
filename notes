@@ -82,3 +82,5 @@ click 'trace', it will download trace.zip
 in Terminal of VS code, cd into wherever it's downloaded in, say, Download folder (actually better to move trace.zip to the project folder)
 run $ npx playwright show-trace trace.zip, it will open the test in ui mode. 
 
+run in debug mode: $ npx playwright test --debug
+click green 'step over' icon in playwright inspector while watching the browser until breakpoint, then we can click triangle 'resume' icon to finish rest steps
