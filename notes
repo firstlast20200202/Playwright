@@ -50,7 +50,7 @@ then run $ npx playwright test --headed --grep @tagishere
 it would only run the tests we specified, excluding the example.spec.js file that auto-generated while installing playwright
 run $ npx playwright show-report if it doesnt pop up
 
-if we want t ospecify a browser (say, Chrome) to run the tests: add --project=chromium
+if we want to specify a browser (say, Chrome) to run the tests: add --project=chromium
 eg. $ npx playwright test --headed --grep @tagishere --project=chromium
 this name has to be the same as 'projects' part in playwright.config.js file
 
