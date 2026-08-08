@@ -42,6 +42,7 @@ await.page.screenshot({ path: 'sth.png' });
 section 3: run tests
 $ npx playwright test
 it would generate a test report in http://localhost:9323
+in case the report doesnt pop up, add --report=html, eg. $ npx playwright test --headed --report=html
 
 best practice:
 add tag in this line of the test file: test('test', async ({ page }) => {
