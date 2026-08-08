@@ -13,5 +13,5 @@ create a file under 'tests' folder and name it in this format 'blabla.spec.js' (
 
 
 section 2: create tests
-
+$ npx playwright codegen <url that you are testing>
 
