@@ -13,5 +13,12 @@ create a file under 'tests' folder and name it in this format 'blabla.spec.js' (
 
 
 section 2: create tests
-$ npx playwright codegen <url that you are testing>
-
+run in VS code $ npx playwright codegen <url that you are testing>
+it would pop up a playwright inspector window, as you click on the webpage, it would record all your behaviours and generate test scripts in it;
+it would pop up a browser window as well which is the application page you are testing, click 'assert visibility' or 'assert texts' or 'assert values' icons 
+to add assertions into the scripts, click stop recording icon once finish;
+copy the scripts from playwright inspector into the test file 'blabla.spec.js'.
+in the scripts we can also manually add scripts as below:
+const newTodo = page.locator('new-todo');
+await newTodo.fill('task1');
+await newTodo.press('Enter');
