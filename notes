@@ -18,7 +18,26 @@ it would pop up a playwright inspector window, as you click on the webpage, it w
 it would pop up a browser window as well which is the application page you are testing, click 'assert visibility' or 'assert texts' or 'assert values' icons 
 to add assertions into the scripts, click stop recording icon once finish;
 copy the scripts from playwright inspector into the test file 'blabla.spec.js'.
+
 in the scripts we can also manually add scripts as below:
 const newTodo = page.locator('new-todo');
 await newTodo.fill('task1');
 await newTodo.press('Enter');
+
+const items = page.locator('some texts');
+await expect(items).toHaveCount(3);
+
+//mark second item complete
+await items.nth(1).locator('toggle').check();
+await expect(page.locator('blabla')).toHaveCount(1);
+
+//delete third item (hover + click destroy)
+await.items.nth(2).hover();
+await items.nth(2).locator('.destroy').click({ force: true });
+await.expect(items).toHaveCount(2);
+
+await.page.screenshot({ path: 'sth.png' });
+
+
+
+
