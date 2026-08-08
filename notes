@@ -60,3 +60,7 @@ if we want to slow down the running process to see it more clear, just add these
 launchOptions: {
     slowMo: 300,
 }
+
+note: running tests in playwright ui mode is useful for debugging, say, $ npx playwright test --ui
+
+
