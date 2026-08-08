@@ -47,4 +47,4 @@ best practice:
 add tag in this line of the test file: test('test', async ({ page }) => {
 test('test some app @tagishere', async ({ page }) => {
 then run $ npx playwright test --headed --grep @tagishere
-it would only run the tests we specified, ecluding the example.spec.js file that auto-generated while installing playwright
+it would only run the tests we specified, excluding the example.spec.js file that auto-generated while installing playwright
