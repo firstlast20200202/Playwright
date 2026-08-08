@@ -63,8 +63,17 @@ launchOptions: {
     slowMo: 300,
 }
 
-note: running tests in playwright ui mode is useful for debugging, say, $ npx playwright test --ui
+also running tests in playwright ui mode is useful for debugging, say, $ npx playwright test --ui
 
 
 section 4: take screenshot on failure
+example of 'use' part in playwright.config.js file:
+use: {
+    browserName: 'chromium',
+    headless: false;
+    screenshot: 'only-on-failure';
+    trace: 'retain-on-failure',        //keeps trace for debugging
+    video: 'retain-on-failure'         //record video if test fails
+},
+
 
