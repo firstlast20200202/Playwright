@@ -49,3 +49,8 @@ test('test some app @tagishere', async ({ page }) => {
 then run $ npx playwright test --headed --grep @tagishere
 it would only run the tests we specified, excluding the example.spec.js file that auto-generated while installing playwright
 run $ npx playwright show-report if it doesnt pop up
+
+if we want to slow down the running process to see it more clear, just add these scripts in 'use' under 'trace' in playwright.config.js file
+launchOptions: {
+    slowMo: 300,
+}
