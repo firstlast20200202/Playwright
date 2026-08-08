@@ -39,5 +39,6 @@ await.expect(items).toHaveCount(2);
 await.page.screenshot({ path: 'sth.png' });
 
 
-
-
+section 3: run tests
+$ npx playwright test
+it would generate a test report in http://localhost:9323
