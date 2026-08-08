@@ -9,7 +9,7 @@ step 2: install Playwright test
 $ npm init playwright@latest
 
 step 3: create tests file
-create a file under 'tests' folder and name it in this format 'blabla.spec.js', that's where we add tests in
+create a file under 'tests' folder and name it in this format 'blabla.spec.js' ('blabla.spec.ts' if use typescript), that's where we add tests in
 
 
 section 2: create tests
