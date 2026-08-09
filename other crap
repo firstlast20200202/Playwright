@@ -5,3 +5,6 @@ OR:
 add '--retries=3' in command line when run tests.
 if a test case fails at the first time and succeeds in any retry, it will be marked as 'flaky'.
 it will show 'Retry #1' and 'Retry #2' following 'Run' tab in test report.
+
+official docs:
+https://playwright.dev/docs/ci-intro
