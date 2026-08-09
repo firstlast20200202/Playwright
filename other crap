@@ -1,1 +1,3 @@
-
+auto-retry failed test cases:
+in playwright.config.js file, comment out 'retries: process.env.CI ? 2 : 0,' add 'retries: 2,' it means that if a test case fails, it will auto-run max twice
+until it succeeds. if a test case fails at the first time and succeeds in any retry, it will be marked as 'flaky'.
