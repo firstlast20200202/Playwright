@@ -10,4 +10,6 @@ official docs:
 https://playwright.dev/docs/ci-intro
 
 
-it seems that it auto-popup test report page only if there's failed test cases, if all cases pass, it doesnt popup... maybe can be setup in config file.
+10 Aug:
+it seems that it auto-popup test report page only if there's failed test cases, if all cases pass, it doesnt popup... 
+maybe can be setup in config file forcing to popup regardless of any scenario.
