@@ -8,3 +8,6 @@ it will show 'Retry #1' and 'Retry #2' following 'Run' tab in test report.
 
 official docs:
 https://playwright.dev/docs/ci-intro
+
+
+it seems that it auto-popup test report page only if there's failed test cases, if all cases pass, it doesnt popup... maybe can be setup in config file.
