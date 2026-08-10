@@ -70,8 +70,8 @@ section 4: take screenshot on failure
 example of 'use' part in playwright.config.js file:
 use: {
     browserName: 'chromium',
-    headless: false;                   //always run on chrome browser in headed mode
-    screenshot: 'only-on-failure';
+    headless: false,                   //always run on chrome browser in headed mode
+    screenshot: 'only-on-failure',
     trace: 'retain-on-failure',        //keeps trace for debugging
     video: 'retain-on-failure'         //record video if test fails
 },
