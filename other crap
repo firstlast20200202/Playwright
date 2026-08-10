@@ -15,6 +15,6 @@ it seems that it auto-popup test report page only if there's failed test cases, 
 maybe can be setup in config file forcing to popup regardless of any scenario.
 
 hard assertion and soft assertion:
-when executing multiple tests in one file, once one step fails, it doesnt execute following steps, which is called hard assertion as default.
+when executing multiple tests in one file, once one step fails, it doesnt execute following steps, which is called hard assertion as a default setting in Playwright.
 but sometimes we make some tests fail one purpose. to continue on executing the following steps, apply soft assertion by:
 expect(locator).toBeVisible()  ->  expect.soft(locator).toBeVisible()
