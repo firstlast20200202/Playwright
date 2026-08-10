@@ -10,6 +10,16 @@ official docs:
 https://playwright.dev/docs/ci-intro
 
 
+to always open test report after execution, add this part into playwright.config.ts file:
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  reporter: [
+    ['html', { open: 'always' }] // Force the HTML report to always open
+  ],
+});
+
+
 hard assertion and soft assertion:
 when executing multiple tests in one file, once one step fails, it doesnt execute following steps, which is called hard assertion as a default setting in Playwright.
 but sometimes we fail some test cases on purpose. to keep executing the following steps, apply soft assertion by:
