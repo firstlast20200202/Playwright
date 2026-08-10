@@ -10,10 +10,6 @@ official docs:
 https://playwright.dev/docs/ci-intro
 
 
-10 Aug:
-it seems that it auto-popup test report page only if there's failed test cases, if all cases pass, it doesnt popup... 
-maybe can be setup in config file forcing to popup regardless of any scenario.
-
 hard assertion and soft assertion:
 when executing multiple tests in one file, once one step fails, it doesnt execute following steps, which is called hard assertion as a default setting in Playwright.
 but sometimes we fail some test cases on purpose. to keep executing the following steps, apply soft assertion by:
