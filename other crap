@@ -24,3 +24,12 @@ hard assertion and soft assertion:
 when executing multiple tests in one file, once one step fails, it doesnt execute following steps, which is called hard assertion as a default setting in Playwright.
 but sometimes we fail some test cases on purpose. to keep executing the following steps, apply soft assertion by:
 expect(locator).toBeVisible()  ->  expect.soft(locator).toBeVisible()
+
+
+save test reports in our local machine:
+in playwright.config.ts file:
+export default defineConfig({
+  reporter: [
+    ['html', { outputFolder: '<this-folder>', open: 'always' }] // Force the HTML report to always open
+  ],
+});
