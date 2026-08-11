@@ -38,8 +38,7 @@ the difference of outputFolder and outputDir is:
 outputFolder stores test results
 outputDir stores test artifacts like screenshots, videos and trace etc.
 
-
-if test results are not stored in this folder or not in this naming format, that would be it's reading from some environment variables set earlier in powershell:
+if test results are not stored as specified in outputFolder, that would be it's reading from some environment variables set earlier in powershell:
 $env:PLAYWRIGHT_HTML_OUTPUT_DIR="playwright-report/run-$(Get-Date -UFormat 'yyyyMMdd-HHmmss')"; npx playwright test
 sth like that.. to remove it:
 $ Remove-Item Env: \PLAYWRIGHT_HTML_OUTPUT_DIR
