@@ -19,3 +19,6 @@ step 5: install dependencies
 step 6: create a project structure
   create a folder under project folder called 'src/test'
   create two folders 'feature' and 'steps' under 'src/test'
+  files in 'feature' are plain texts user cases
+  files in 'steps' are in TS or JS which are converted from features
+  we use cucumber runner file which is in Json... (where?)
