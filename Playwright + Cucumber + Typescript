@@ -2,11 +2,16 @@ https://www.youtube.com/watch?v=bfWXNLqKlvA&list=PL699Xf-_ilW6KgK-S1l9ynOnBGiZl2
 
 setup:
 step 1: create a folder and open it in VScode
-step 2: install Playwright (can be searched in VScode extension)
+step 2: install Playwright 
+  search in VScode extension 
+  install Playwright test for VSCode
+  search '>playwright' in search bar
+  click 'Test: Install Playwright'
+  click 'OK' with default ticked options      //it would output blabla with 'Happy hacking!' in terminal which means successful
 step 3: install Cucumber plugin in VScode
-$ npm install --save-dev @cucumber/cucumber
-$ npm list @cucumber/cucumber
-$ npx cucumber-js --version
+  $ npm install --save-dev @cucumber/cucumber
+  $ npm list @cucumber/cucumber
+  $ npx cucumber-js --version
 step 4: delete example.spec.ts
 step 5: 
 
