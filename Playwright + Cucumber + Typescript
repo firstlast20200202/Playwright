@@ -47,3 +47,6 @@ Feature: User login tests
     When the user leaves both username and password fields empty
     And clicks the login button
     Then an error message should be displayed indicating that fields cannot be empty
+
+
+next step would be reading the feature file and generate snippets, do the mapping, this can be configured in a cucumber.json file under project folder.
