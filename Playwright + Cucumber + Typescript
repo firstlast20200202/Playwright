@@ -22,7 +22,7 @@ step 6: create a project structure
   files in 'feature' are plain texts user cases, make sure all the files have extension .feature
   files in 'steps' are in TS or JS which are converted from features
   we use cucumber runner file which is in Json... (where?)
-  create a file 'login.feature' in 'feature' folder, example contents: 'Given' is Prerequisites, 'When' is steps
+  create a file 'login.feature' in 'feature' folder, example contents: 'Given' is Prerequisites, 'When' is steps, 'Then' is positive outcome, 'But' is negative
 
 Feature: User login tests
   
