@@ -17,3 +17,5 @@ step 5: install dependencies
   $ npm i @cucumber/cucumber -D
   $ npm i ts-node -D
 
+step 6: create a project structure
+  create a folder under project folder called 'src/test/features'
