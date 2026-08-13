@@ -22,3 +22,28 @@ step 6: create a project structure
   files in 'feature' are plain texts user cases, make sure all the files have extension .feature
   files in 'steps' are in TS or JS which are converted from features
   we use cucumber runner file which is in Json... (where?)
+  create a file 'login.feature' in 'feature' folder, example contents: 'Given' is Prerequisites, 'When' is steps
+
+Feature: User login tests
+  
+  Background:
+  Given the user navigates to the login page
+    And User click on the login link
+    
+  Scenario: Successful login with valid credentials
+    Given the user is on the login page
+    When the user enters valid username and password
+    And clicks the login button
+    Then the user should be redirected to the dashboard
+
+  Scenario: Unsuccessful login with invalid credentials
+    Given the user is on the login page
+    When the user enters invalid username or password
+    And clicks the login button
+    Then an error message should be displayed indicating invalid credentials
+
+  Scenario: Login attempt with empty fields
+    Given the user is on the login page
+    When the user leaves both username and password fields empty
+    And clicks the login button
+    Then an error message should be displayed indicating that fields cannot be empty
