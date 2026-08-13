@@ -16,6 +16,6 @@ step 4: delete tests folder and playwright.config.ts
 step 5: install dependencies
   $ npm i @cucumber/cucumber -D
   $ npm i ts-node -D
-
 step 6: create a project structure
-  create a folder under project folder called 'src/test/features'
+  create a folder under project folder called 'src/test'
+  create two folders 'feature' and 'steps' under 'src/test'
