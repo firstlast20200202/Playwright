@@ -4,9 +4,10 @@ setup:
 step 1: create a folder and open it in VScode
 step 2: install Playwright (can be searched in VScode extension)
 step 3: install Cucumber plugin in VScode
-step 4: delete example.spec.ts
-step 5:
 $ npm install --save-dev @cucumber/cucumber
 $ npm list @cucumber/cucumber
 $ npx cucumber-js --version
+step 4: delete example.spec.ts
+step 5: 
+
 
