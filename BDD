@@ -9,3 +9,5 @@ steps of building automation tests:
 4. add page files
 5. add common function files
 6. fill in details of steps
+
+locating in traces -> locator would be easier to find an element which is not expressed with dynamic IDs
