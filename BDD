@@ -1,3 +1,11 @@
 BDD: behaviour-driven development
 
 Playwright + Cucumber + Typescript
+
+steps of building automation tests:
+1. write feature file with plain texts  
+2. $ npx bddgen  
+3. skeleton of steps files generated 
+4. add page files
+5. add common function files
+6. fill in details of steps
